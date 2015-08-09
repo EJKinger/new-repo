@@ -6,9 +6,11 @@ categories: big o notation
 ---
 <p>
 The rockstar approach to solving time complexity problems failed for me, and it will probably fail for you too.  Just in case though, give these steps a try.
-  1. Look at the problem
-  2. Write an extremely elegant solution
-  3. Run and watch it complete, O(1) like a boss.
+<ol>
+  <li>Look at the problem</li>
+  <li>Write an extremely elegant solution</li>
+  <li>Run and watch it complete, O(1) like a boss.</li>
+</ol>
 
 Did that work for you?  If so, stop reading here, rockstar, President Obama is calling for help with some healthcare website he's working on.  If it didn't work though, and you live on earth like the rest of us, this post is for you.
 </p>
