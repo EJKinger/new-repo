@@ -18,7 +18,9 @@ Elegant solutions don't usually happen the first time through.  I can't count ho
 </p>
 <p>
 Solving a problem in this way, regardless of how inelegent, will nearly always open the door to new solutions.  By thinking through the process of the problem and figuring out where the pain points are, you will be able to step back and see the whole thing Neo-matrix-style.
+</p>
 ![neo](/assets/02/neo.png)
 
+<p>
 I know that this post hasn't been super technical, or really all that informative.  For me though, this thinking works: I need to work on the problem before I can step back and try to find a better solution.
 </p>
