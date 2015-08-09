@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Big O Woes"
+date:   2015-08-08 11:23:32
+categories: big o notation
+---
+<p>
+The rockstar approach to solving time complexity problems failed for me, and it will probably fail for you too.  Just in case though, give these steps a try.
+  1. Look at the problem
+  2. Write an extremely elegant solution
+  3. Run and watch it complete, O(1) like a boss.
+
+Did that work for you?  If so, stop reading here, rockstar, President Obama is calling for help with some healthcare website he's working on.  If it didn't work though, and you live on earth like the rest of us, this post is for you.
+</p>
+
+<p>
+Elegant solutions don't usually happen the first time through.  I can't count how many times I've let myself become paralyzed, worried that the only idea I have will take eons to actually run.  The problem lies here: I don't actually know the problem yet.  Even if you know what needs to be done, and have a decent idea of how to get there, you still don't <em>know</em> the problem.  There's only one way to know a problem, and that's to get into the guts of it, dive in and solve it.
+</p>
+<p>
+Solving a problem in this way, regardless of how inelegent, will nearly always open the door to new solutions.  By thinking through the process of the problem and figuring out where the pain points are, you will be able to step back and see the whole thing Neo-matrix-style.
+![neo](/assets/02/neo.png)
+
+I know that this post hasn't been super technical, or really all that informative.  For me though, this thinking works: I need to work on the problem before I can step back and try to find a better solution.
+</p>
