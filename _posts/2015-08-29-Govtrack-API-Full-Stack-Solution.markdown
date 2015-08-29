@@ -35,7 +35,7 @@ module.exports = function billController($scope, Home){ //the Home factory is in
 };
 {% endhighlight %}
 <p>
-Now within our Home factory, we can see that the getAllBills function is making a GET request to our internal API at the '/billSearch' endpoint, and again passing along our query, this time attached to the params object.
+Now within our Home factory, we can see that the getAllBills function is making a GET request to our internal API at the '/billSearch' endpoint, and again passing along our query, this time attached to the params property.
 {% highlight js %}
 module.exports = function homeFactory($http){
 
@@ -65,7 +65,7 @@ var bills = require('./billController');
 var app = express();
 
 app.get('/billSearch', function(request, response){
-  bills.getBillsBySearch(request.query, function(listing){ // populates billInfo object with bill data
+  bills.getBillsBySearch(request.query, function(listing){
     response.send(listing); // sends back JSON object to client
   });
 });
@@ -74,7 +74,8 @@ module.exports = app;
 {% endhighlight %}
 </p>
 <p>
-Finally, within our controller we actually query the API.  I say this, but the actual query is abstracted away using [GovTrack Node]: https://github.com/markgx/govtrack-node
+Finally, within our controller we actually query the API.  I say this, but the actual query is abstracted away using 
+[GovTrack Node]: https://github.com/markgx/govtrack-node
 We promisify the govTrack node library to eliminate any synchronicity issues.  Then, once the response is received we begin the long journy back up the stack to the user.
 {% highlight js %}
 var govTrack = require('govtrack-node');
