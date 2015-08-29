@@ -74,7 +74,7 @@ module.exports = app;
 {% endhighlight %}
 </p>
 <p>
-Finally, within our controller we actually query the API.  I say this, but the actual query is abstracted away using 
+Finally, within our controller we actually query the API.  I say this, but the actual query is abstracted away further using 
 <a href="https://github.com/markgx/govtrack-node">GovTrack Node</a> 
 We promisify the govTrack node library to eliminate any synchronicity issues.  Then, once the response is received we begin the long journy back up the stack to the user.
 {% highlight js %}
