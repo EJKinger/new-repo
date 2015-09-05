@@ -9,7 +9,7 @@ When designing a site to feel responsive on mobile, it's important to consider t
 </p>
 
 <p>
-Here's the first bit of code, the HTML that displays a button and a loading icon.  It uses the angular ngIf directive to decide which element to display.  All of the CSS classes are native to the Materialize CSS library.
+Here's the first bit of code, the HTML that displays a button and a loading icon.  It uses the angular ng-if directive to decide which element to display.  All of the CSS classes are native to the Materialize CSS library.
 </p>
 {% highlight html %}
   <!-- Begin Submit Button (displays if form not submitted)-->
