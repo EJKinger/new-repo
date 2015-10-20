@@ -14,7 +14,7 @@ $stateProvider
     url: "/",
     views: {
       "content1": { templateUrl: "user/login.html",
-                    controller: "loginController" 
+                    controller: "loginController"
                   },
       "title": { template: "Otto" }
     },
@@ -27,5 +27,5 @@ $stateProvider
 {% endhighlight %}
 
 <p>
-I inject auth and $location into the function, and then it simply a matter of testing whether the user is authenticated or not. 
+I inject auth and $location into the function, and then it is simply a matter of testing whether the user is authenticated or not. 
 </p>
